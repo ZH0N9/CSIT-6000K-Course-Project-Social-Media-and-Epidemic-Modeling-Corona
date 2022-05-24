@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/essos.js"></script>
+
+</head>
+<body>
+    <div id="22ac2b9b425945f789d0711539d611ac" class="chart-container" style="width:1000px; height:500px;"></div>
+    <script>
+        var chart_22ac2b9b425945f789d0711539d611ac = echarts.init(
+            document.getElementById('22ac2b9b425945f789d0711539d611ac'), 'essos', {renderer: 'canvas'});
+        var option_22ac2b9b425945f789d0711539d611ac = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "Max Count",
+            "legendHoverLink": true,
+            "data": [
+                122,
+                115,
+                121,
+                59,
+                78,
+                80,
+                78,
+                62,
+                93,
+                63
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12,
+                "fontWeight": "bold"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "Average Count",
+            "legendHoverLink": true,
+            "data": [
+                24.44,
+                25.84,
+                22.9,
+                17.13,
+                25.13,
+                25.73,
+                22.88,
+                22.51,
+                16.77,
+                25.84
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12,
+                "fontWeight": "bold"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "Min Count",
+            "legendHoverLink": true,
+            "data": [
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12,
+                "fontWeight": "bold"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Max Count",
+                "Average Count",
+                "Min Count"
+            ],
+            "selected": {
+                "Max Count": true,
+                "Average Count": true,
+                "Min Count": true
+            },
+            "show": true,
+            "left": "right",
+            "top": "top",
+            "orient": "vertical",
+            "padding": 30,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "textStyle": {
+                "color": "#942c47",
+                "fontWeight": "bold",
+                "fontSize": 12
+            }
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": false,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "color": "#eb4c49",
+                "rotate": 30,
+                "margin": 8,
+                "fontSize": 12,
+                "fontWeight": "bold"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "United States",
+                "United Kingdom",
+                "India",
+                "Serbia",
+                "Canada",
+                "Colombia",
+                "South Africa",
+                "Puerto Rico",
+                "Hong Kong",
+                "Bulgaria"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": false,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "color": "#eb4c49",
+                "margin": 8,
+                "fontSize": 12,
+                "fontWeight": "bold"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Word Count of Tweet in Top 10 Countries",
+            "subtext": "The early stage of COVID19",
+            "left": "center",
+            "padding": 20,
+            "itemGap": 10,
+            "textStyle": {
+                "color": "#942c47",
+                "fontWeight": "bold",
+                "fontSize": 20
+            },
+            "subtextStyle": {
+                "color": "#eb4c49",
+                "fontWeight": "bold",
+                "fontSize": 15
+            }
+        }
+    ]
+};
+        chart_22ac2b9b425945f789d0711539d611ac.setOption(option_22ac2b9b425945f789d0711539d611ac);
+    </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+tweet_created_at,country_code,country_name,user_id,user_created_at,user_name,user_source,user_verified,user_favourites_count,user_followers_count,user_friends_count,tweet_is_retweet,tweet
+2020-04-10 13:02:12+00:00,GL,Greenland,1220040063301640194,2020-01-22 17:46:52+00:00,ExchangeArctic,Twitter for iPhone,False,47,35,66,False,No documented cases of Covid19 in Greenland - we had 11 and all got well without any difficulty #Arctic #covid19

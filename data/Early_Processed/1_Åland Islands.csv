@@ -1,0 +1,2 @@
+tweet_created_at,country_code,country_name,user_id,user_created_at,user_name,user_source,user_verified,user_favourites_count,user_followers_count,user_friends_count,tweet_is_retweet,tweet
+2020-08-04 06:38:53,AX,Åland Islands,,2016-09-13 09:33:51,ÅSUB,Twitter Web App,False,1,42,4,False,"The current Coronavirus situation have major consequences for the employment situation in the #Åland labor market,… https://t.co/fRTy0OJjdN"

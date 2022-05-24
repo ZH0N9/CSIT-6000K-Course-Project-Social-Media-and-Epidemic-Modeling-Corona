@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/essos.js"></script>
+
+</head>
+<body>
+    <div id="e6c1e9be15bc4a7ca5097c5ab2c23996" class="chart-container" style="width:1200px; height:800px;"></div>
+    <script>
+        var chart_e6c1e9be15bc4a7ca5097c5ab2c23996 = echarts.init(
+            document.getElementById('e6c1e9be15bc4a7ca5097c5ab2c23996'), 'essos', {renderer: 'canvas'});
+        var option_e6c1e9be15bc4a7ca5097c5ab2c23996 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "map",
+            "name": "COVID_Tweet_Map",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "Canada",
+                    "value": 0.03875461728865194
+                },
+                {
+                    "name": "Australia",
+                    "value": 0.01435338512763596
+                },
+                {
+                    "name": "Colombia",
+                    "value": -0.03711714965076535
+                },
+                {
+                    "name": "India",
+                    "value": -0.08769386028348278
+                },
+                {
+                    "name": "Nigeria",
+                    "value": 0.11893089430894309
+                },
+                {
+                    "name": "Serbia",
+                    "value": 0.07707265711135612
+                },
+                {
+                    "name": "South Africa",
+                    "value": 0.049666825396825404
+                },
+                {
+                    "name": "Thailand",
+                    "value": 0.1280468686868687
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": -0.03951308909259665
+                },
+                {
+                    "name": "United States",
+                    "value": -0.00044637226017418764
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": false,
+            "itemStyle": {
+                "borderColor": "#fdfcf4"
+            },
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "COVID_Tweet_Map"
+            ],
+            "selected": {
+                "COVID_Tweet_Map": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "The Overall Sentiment Average Score",
+            "left": "center",
+            "padding": 20,
+            "itemGap": 10,
+            "textStyle": {
+                "fontWeight": "bold",
+                "fontSize": 25
+            },
+            "subtextStyle": {
+                "fontWeight": "bold",
+                "fontSize": 20
+            }
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "text": [
+            "High",
+            "Low"
+        ],
+        "textStyle": {
+            "fontWeight": "bold",
+            "fontSize": 15
+        },
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "left": "left",
+        "top": "bottom",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": -0.09,
+                "max": -0.05,
+                "label": "-0.09~-0.05",
+                "color": "#3d707a"
+            },
+            {
+                "min": -0.05,
+                "max": -0.01,
+                "label": "-0.05~-0.01",
+                "color": "#4c8c99"
+            },
+            {
+                "min": -0.01,
+                "max": 0.03,
+                "label": "-0.01~0.03",
+                "color": "#69b8c7"
+            },
+            {
+                "min": 0.03,
+                "max": 0.07,
+                "label": "0.03~0.07",
+                "color": "#f6dc7a"
+            },
+            {
+                "min": 0.07,
+                "max": 0.11,
+                "label": "0.07~0.11",
+                "color": "#ecc641"
+            },
+            {
+                "min": 0.11,
+                "max": 0.15,
+                "label": "0.11~0.15",
+                "color": "#e38931"
+            },
+            {
+                "min": 0.15,
+                "max": 0.19,
+                "label": "0.15~0.19",
+                "color": "#e36331"
+            },
+            {
+                "min": 0.19,
+                "max": 0.23,
+                "label": "0.19~0.23",
+                "color": "#e38931"
+            }
+        ]
+    }
+};
+        chart_e6c1e9be15bc4a7ca5097c5ab2c23996.setOption(option_e6c1e9be15bc4a7ca5097c5ab2c23996);
+    </script>
+</body>
+</html>

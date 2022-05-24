@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/essos.js"></script>
+
+</head>
+<body>
+    <div id="503eb8b000144a0bb5b642298e834c01" class="chart-container" style="width:1200px; height:800px;"></div>
+    <script>
+        var chart_503eb8b000144a0bb5b642298e834c01 = echarts.init(
+            document.getElementById('503eb8b000144a0bb5b642298e834c01'), 'essos', {renderer: 'canvas'});
+        var option_503eb8b000144a0bb5b642298e834c01 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "map",
+            "name": "COVID_Tweet_Map",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "Nigeria",
+                    "value": 0.12004428931085954
+                },
+                {
+                    "name": "Sebria",
+                    "value": 0.10089639462967204
+                },
+                {
+                    "name": "Canada",
+                    "value": 0.09135302313757064
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 0.07522123215521977
+                },
+                {
+                    "name": "South Africa",
+                    "value": 0.07025681050196982
+                },
+                {
+                    "name": "Thiland",
+                    "value": 0.061222932219820746
+                },
+                {
+                    "name": "United States",
+                    "value": 0.05891016795207151
+                },
+                {
+                    "name": "India",
+                    "value": 0.05344313500610135
+                },
+                {
+                    "name": "Australia",
+                    "value": 0.03910801970666717
+                },
+                {
+                    "name": "Colombia",
+                    "value": -0.0002984787349350135
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": false,
+            "itemStyle": {
+                "borderColor": "#fdfcf4"
+            },
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "COVID_Tweet_Map"
+            ],
+            "selected": {
+                "COVID_Tweet_Map": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "The Sentiment Average Score",
+            "subtext": "Score>=0.05:Positive;-0.05<Scroe<0.05:Neutral;Scroe<=-0.05",
+            "left": "center",
+            "padding": 20,
+            "itemGap": 10,
+            "textStyle": {
+                "fontWeight": "bold",
+                "fontSize": 25
+            },
+            "subtextStyle": {
+                "fontWeight": "bold",
+                "fontSize": 20
+            }
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "text": [
+            "High",
+            "Low"
+        ],
+        "textStyle": {
+            "fontWeight": "bold",
+            "fontSize": 15
+        },
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "left": "left",
+        "top": "bottom",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": -0.1,
+                "max": 0,
+                "label": "-0.05~0.00",
+                "color": "#fae69d"
+            },
+            {
+                "min": 0,
+                "max": 0.05,
+                "label": "0.00~0.05",
+                "color": "#fccc89"
+            },
+            {
+                "min": 0.051,
+                "max": 0.065,
+                "label": "0.05~0.065",
+                "color": "#f28f1b"
+            },
+            {
+                "min": 0.066,
+                "max": 0.09,
+                "label": "0.065~0.09",
+                "color": "#c25151"
+            },
+            {
+                "min": 0.091,
+                "max": 0.5,
+                "label": "0.09~0.2",
+                "color": "#b13333"
+            }
+        ]
+    }
+};
+        chart_503eb8b000144a0bb5b642298e834c01.setOption(option_503eb8b000144a0bb5b642298e834c01);
+    </script>
+</body>
+</html>

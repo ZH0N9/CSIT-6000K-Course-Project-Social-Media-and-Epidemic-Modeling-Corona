@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="582e4b86462b4e659b86c279a91eb96b" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_582e4b86462b4e659b86c279a91eb96b = echarts.init(
+            document.getElementById('582e4b86462b4e659b86c279a91eb96b'), 'white', {renderer: 'canvas'});
+        var option_582e4b86462b4e659b86c279a91eb96b = {
+    "backgroundColor": "#fdfdf4",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#ff483a",
+        "#1b81a3",
+        "#ffa63e"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "Positive",
+                    "value": 42.38
+                },
+                {
+                    "name": "Negative",
+                    "value": 32.7
+                },
+                {
+                    "name": "Neutral",
+                    "value": 24.92
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}: {c}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Positive",
+                "Negative",
+                "Neutral"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_582e4b86462b4e659b86c279a91eb96b.setOption(option_582e4b86462b4e659b86c279a91eb96b);
+    </script>
+</body>
+</html>

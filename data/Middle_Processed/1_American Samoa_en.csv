@@ -1,0 +1,2 @@
+,tweet_created_at,country_code,country_name,user_id,user_created_at,user_name,user_source,user_verified,user_favourites_count,user_followers_count,user_friends_count,tweet_is_retweet,tweet
+0,2020-12-11 10:43:52,AS,American Samoa,2919250828.0,13-Dec-2014 (07:36:56.000000),Kurt___Godel,,False,,1128,,True,"  Today’s #COVID19 headlines:  The US has taken a step closer to approving the Pfizer/BioNTech covid-19 vaccine, after a co…"
